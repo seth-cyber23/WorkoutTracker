@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: white;
+}
+
+.app {
+  max-width: 700px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.streak {
+  background: #1e293b;
+  padding: 8px 15px;
+  border-radius: 20px;
+}
+
+.workout-selector {
+  margin: 20px 0;
+  display: flex;
+  gap: 10px;
+}
+
+select, input, button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+
+button {
+  background: #22c55e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #16a34a;
+}
+
+.card {
+  background: #1e293b;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+}
+
+input {
+  width: 80px;
+  margin-right: 5px;
+}
+
+.hidden {
+  display: none;
+}
+
+.stats, .history {
+  margin-top: 30px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  padding: 6px;
+  border-bottom: 1px solid #334155;
+}

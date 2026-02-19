@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elite Training Tracker V2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <header>
+    <h1>Elite Training Tracker</h1>
+    <div class="streak">
+      🔥 Streak: <span id="streak">0</span> days
+    </div>
+  </header>
+
+  <section class="workout-selector">
+    <select id="workoutType">
+      <option value="Upper A">Upper A</option>
+      <option value="Upper B">Upper B</option>
+      <option value="Legs">Legs</option>
+      <option value="Cardio">Cardio</option>
+      <option value="Mobility">Mobility</option>
+    </select>
+    <button onclick="startWorkout()">Start</button>
+  </section>
+
+  <section id="workoutArea" class="hidden"></section>
+
+  <section class="stats">
+    <h2>📊 Weekly Completion</h2>
+    <p id="weeklyStats">0%</p>
+  </section>
+
+  <section class="history">
+    <h2>📅 History</h2>
+    <ul id="history"></ul>
+  </section>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
